@@ -11,7 +11,7 @@
       @select="handleSelect">
     <el-menu-item class="logo" text-color="#acd404">
       <el-icon class="icon-logo"><ChromeFilled/></el-icon>
-                     云农管理平台
+                     云农管理系统
     </el-menu-item>
     <div class="flex-grow" />
     <el-sub-menu index="1" class="admin">
@@ -70,7 +70,7 @@
             <span class="data">种植规划</span>
           </template>
           <el-menu-item index="/SI" class="control">种植管理首页</el-menu-item>
-          <el-menu-item index="/manage/user" class="control">监测视频回放</el-menu-item>
+          <el-menu-item index="/manage/user/s" class="control">监测视频回放</el-menu-item>
           <el-menu-item index="/manage/crack" class="control">生长数据管理</el-menu-item>
           <el-menu-item index="/manage/robot" class="control">昆虫密度数据管理</el-menu-item>
           <el-menu-item-group  class="note" title="记录管理">

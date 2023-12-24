@@ -1,7 +1,7 @@
 <template>
 <!-- 管理首页 -->
   <div class="desc">
-    <el-descriptions  :column="3" border title="尊敬的管理员,欢迎来到种植规划系统！">
+    <el-descriptions  :column="3" border title="新一年，新气象；百尺竿头，更进一步">
       <el-descriptions-item label="Type:" >
         {{radio}}</el-descriptions-item>
       <el-descriptions-item label="Start date:">{{Date1}}</el-descriptions-item>
@@ -41,8 +41,7 @@ import {
 
 const state = reactive({
   circleUrl:
-      'https://ts1.cn.mm.bing.net/th/id/R-C.31a79b53d4daa6a832bf083cce18980b?rik=2YvsaRN38OE%2fOg&riu=http%3a%2f%2fwww.kutoo8.com%2fuploads%2fallimg%2f2020_12%2f4-201203144006.jpg&ehk=pYW7YoL9WRbC262QlCdjeZOhQ2zbYkWOv7GX7UEXw2s%3d&risl=&pid=ImgRaw&r=0',
-
+      'https://mms0.baidu.com/it/u=3820182474,3290252771&fm=253&app=138&f=JPEGw=640&h=421',
 })
 
 const { circleUrl, squareUrl, sizeList } = toRefs(state)
